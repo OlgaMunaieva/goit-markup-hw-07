@@ -34,6 +34,7 @@
   font-size: 26px;
   line-height: 1.19;
   color: var(--primary-text-color-opposit);
+
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -48,12 +49,15 @@
 
 .nav__link {
   position: relative;
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color-main);
+
   padding-top: 32px;
   padding-bottom: 32px;
+
   transition: var(--transition-hover-focus-color);
 }
 
@@ -89,12 +93,15 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-main);
+
   display: flex;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   gap: 10px;
-  transition: var(--transition-hover-focus-color), var(--transition-hover-focus-fill);
+
+  transition: var(--transition-hover-focus-color),
+    var(--transition-hover-focus-fill);
 }
 
 .contacts__link:hover .contacts__icon,
@@ -104,4 +111,4 @@
 
 .contacts__icon {
   fill: currentColor;
-}/*# sourceMappingURL=main.css.map */
+}
