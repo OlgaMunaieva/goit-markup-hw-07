@@ -1,0 +1,27 @@
+.address {
+  font-style: inherit;
+  display: inline-block;
+  min-width: 231px;
+}
+
+.address__contact {
+  line-height: 1.71;
+  color: var(--secondary-text-color-opposit);
+
+  transition: var(--transition-hover-focus-color);
+}
+
+.address__contact[target] {
+  color: var(--primary-text-color-opposit);
+
+  transition: var(--transition-hover-focus-color);
+}
+
+.address__contact:hover,
+.address__contact:focus {
+  color: var(--color-accent);
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
