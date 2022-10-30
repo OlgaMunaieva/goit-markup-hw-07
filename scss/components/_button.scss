@@ -17,9 +17,8 @@
   display: block;
   align-items: center;
   transition: var(--transition-hover-focus-bgd-color);
-}
-
-.button:hover,
-.button:focus {
-  background-color: var(--color-accent-secondary);
+  &:hover,
+  &:focus {
+    background-color: var(--color-accent-secondary);
+  }
 }
