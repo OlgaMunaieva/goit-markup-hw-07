@@ -1,9 +1,10 @@
 .check {
   &__text {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-    align-items: center;
+    @include flex($ai, center, 8px);
+    // display: flex;
+    // gap: 8px;
+    // justify-content: center;
+    // align-items: center;
     margin-bottom: 30px;
     text-align: center;
 

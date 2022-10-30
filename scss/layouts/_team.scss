@@ -1,9 +1,10 @@
 .team {
   background-color: var(--secondary-background-color-next);
   &__list {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    @include flex(flex-start, $gp: none);
+    // display: flex;
+    // align-items: flex-start;
+    // justify-content: space-between;
   }
   &__item {
     background-color: var(--primary-background-color-main);

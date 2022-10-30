@@ -33,10 +33,10 @@
     position: absolute;
     top: 8px;
     right: 8px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex($ai, center, none);
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     padding: 0;
     transition: var(--transition-hover-focus-fill);
     &:hover,

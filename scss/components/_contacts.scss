@@ -11,12 +11,12 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-main);
-
-    display: flex;
-    align-items: center;
+    @include flex($ai, none);
+    // display: flex;
+    // align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
-    gap: 10px;
+    // gap: 10px;
 
     transition: var(--transition-hover-focus-color),
       var(--transition-hover-focus-fill);
