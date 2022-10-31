@@ -1,6 +1,6 @@
 .check {
   &__text {
-    @include flex($ai, center, 8px);
+    @include flex($ai: center, $jc: center, $gp: 8px);
     // display: flex;
     // gap: 8px;
     // justify-content: center;

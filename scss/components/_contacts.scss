@@ -11,7 +11,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-main);
-    @include flex($ai, none);
+    @include flex($ai: center, $jc: none);
     // display: flex;
     // align-items: center;
     padding-top: 32px;

@@ -98,6 +98,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: none;
 }
 .nav__list {
   display: flex;
@@ -141,9 +142,10 @@ img {
   color: var(--secondary-text-color-main);
   display: flex;
   align-items: center;
+  justify-content: none;
+  gap: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
-  gap: 10px;
   transition: var(--transition-hover-focus-color), var(--transition-hover-focus-fill);
 }
 .contacts__link:hover, .contacts__link:focus {
@@ -211,6 +213,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: none;
   transition: var(--transition-hover-focus-bgd-color);
 }
 .cos__link:hover, .cos__link:focus {
@@ -240,9 +243,10 @@ img {
 
 .filter {
   display: flex;
+  align-items: none;
   justify-content: center;
-  margin-bottom: 50px;
   gap: 8px;
+  margin-bottom: 50px;
 }
 .filter__btn {
   font-weight: 500;
@@ -326,8 +330,9 @@ img {
   top: 8px;
   right: 8px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  gap: none;
   padding: 0;
   transition: var(--transition-hover-focus-fill);
 }
@@ -416,9 +421,9 @@ img {
 
 .check__text {
   display: flex;
-  gap: 8px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  gap: 8px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: 400;
@@ -467,7 +472,7 @@ img {
   border-radius: 2px;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   width: 100%;
   height: 4px;
   background-color: var(--color-accent);
@@ -511,6 +516,7 @@ img {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  gap: none;
 }
 .features__item {
   width: 270px;
@@ -519,8 +525,9 @@ img {
   width: 270px;
   height: 120px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  gap: none;
   margin-bottom: 30px;
   background: var(--secondary-background-color-next);
   border-radius: 4px;
@@ -543,6 +550,7 @@ img {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  gap: none;
 }
 .doing__item {
   position: relative;
@@ -569,6 +577,7 @@ img {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  gap: none;
 }
 .team__item {
   background-color: var(--primary-background-color-main);
@@ -604,8 +613,9 @@ img {
   border: 1px solid var(--icon-soc-color);
   border-radius: 4px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  gap: none;
   transition: var(--transition-hover-focus-border-color);
 }
 .clients__link:hover, .clients__link:focus {
